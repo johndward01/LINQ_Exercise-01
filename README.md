@@ -1,4 +1,4 @@
-# LINQ_Exercise_01
+# LINQ_Exercise-01
 
 ### Exercise Instructions
 
