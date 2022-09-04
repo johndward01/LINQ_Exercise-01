@@ -26,7 +26,7 @@ namespace LINQ_Exercise_01
 
             #endregion
 
-            var dictionaryOfStrings = new Dictionary<int, string>
+            Dictionary<int, string> dictionaryOfStrings = new Dictionary<int, string>
             {
                 { 1, "abc" },
                 { 2, "def" },
@@ -39,7 +39,7 @@ namespace LINQ_Exercise_01
                 { 9, "yz_" },
                 { 10, "111" }
             };
-            
+
             //TODO: Using the dictionaryOfStrings above, remove the entries that contains numbers or an underscore
             //      and print the contents to the console (using a LINQ 1-Liner)
 
@@ -48,6 +48,15 @@ namespace LINQ_Exercise_01
             //TODO: Using the dictionaryOfStrings above, filter out all of the entries with vowels
             //      and print the contents to the console (using a LINQ 1-Liner)
 
+
+            IEnumerable<int> collectionOfNumbers = new int[] { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+
+            //TODO: Using the collectionOfNumbers above, transform each number into its squared form (Hint: Select())
+            //      and print the contents to the console (using a LINQ 1-Liner)
+
+
+            //TODO: Using the collectionOfNumbers above, filter for only the numbers that are evenly divisible by 3
+            //      and print the contents to the console (using a LINQ 1-Liner)
 
         }
     }
