@@ -40,13 +40,13 @@ namespace LINQ_Exercise_01
                 { 10, "111" }
             };
 
-            //TODO: Using the dictionaryOfStrings above, remove the entries that contains numbers or an underscore
-            //      and print the contents to the console (using a LINQ 1-Liner)
+            // TODO: Using the dictionaryOfStrings above, remove the entries that contain numbers or an underscore
+            // and print the contents to the console (using a LINQ 1-Liner)
 
 
 
-            //TODO: Using the dictionaryOfStrings above, filter out all of the entries with vowels
-            //      and print the contents to the console (using a LINQ 1-Liner)
+            // TODO: Using the dictionaryOfStrings above, filter out all of the entries with vowels
+            // and print the contents to the console (using a LINQ 1-Liner)
 
 
             IEnumerable<int> collectionOfNumbers = new int[] { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
